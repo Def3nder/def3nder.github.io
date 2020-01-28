@@ -1012,8 +1012,8 @@ function requestJson(command, verbose = true) {
   var req = null;
   e1 = d.getElementById('fxlist');
   e2 = d.getElementById('selectPalette');
-  url = command ? '/json/state':'/json';
-  //url = command ? 'http://10.10.1.26/json/state':'http://10.10.1.26/json';
+  //url = command ? '/json/state':'/json';
+  url = command ? 'http://192.168.178.136/json/state':'http://192.168.178.136/json';
   type = command ? 'post':'get';
   if (command)
   {
